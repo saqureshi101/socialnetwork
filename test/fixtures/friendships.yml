@@ -4,10 +4,10 @@ one:
   user_id: 1
   friend_id: 1
   state: MyString
-  friended_at: 2016-03-10 10:04:11
+  friended_at: 2016-03-10 10:53:34
 
 two:
   user_id: 1
   friend_id: 1
   state: MyString
-  friended_at: 2016-03-10 10:04:11
+  friended_at: 2016-03-10 10:53:34
