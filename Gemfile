@@ -45,6 +45,12 @@ group :development do
   gem 'spring'
 end
 
+group :production do 
+	gem 'pg'
+	gem 'rails_12factor'
+	gem 'unicorn'
+end
+
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'simple_form'
 gem 'devise'

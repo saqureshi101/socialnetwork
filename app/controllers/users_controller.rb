@@ -29,6 +29,9 @@ def index
     @pending_count = current_user.pending_friend_requests_to.map(&:friend).size
   end
 
+
+
+
   def set_user
   	@user = User.find_by(username: params[:id])
   end
